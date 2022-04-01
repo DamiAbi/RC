@@ -68,7 +68,7 @@ let num2 = prompt("Escribe otro número");
 let num3 = prompt("Escribe otro número");
 if (num1 > num2 && num1 > num3) {
 document.write(num1);
-} else if (num2 > nm3) {
+} else if (num2 > num3) {
 document.write(num2);
 } else {
 document.write(num3);
