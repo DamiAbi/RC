@@ -118,6 +118,44 @@ document.write("Es divisible por 7. ");
 document.write("No es divisible ni por 2, ni por 3, ni por 5, ni por 7");
 }
 
+// TAREA 25 DE ABRIL
+
+
+let peliculas = [
+  {
+    título: "Harry Potter y las reliquias de la muerte parte 2",
+    género: "Fantasía",
+    anio: "2011",
+    sinapsis:
+   "Un enfrentamiento entre el bien y el mal espera cuando el joven Harry (Daniel Radcliffe), Ron (Rupert Grint) y Hermione (Emma Watson) se preparan para una última batalla en contra de Lord Voldemort (Ralph Fiennes). Harry se ha convertido en un joven fuerte que tiene la misión de librar al mundo del mal."  },
+  {
+    título: "Encanto",
+    género: "Infantil",
+    anio: "2021",
+    sinapsis:
+      "Una joven colombiana puede ser la última esperanza para su familia, cuando descubre que la magia que rodea a Encanto, un lugar encantado que bendice a los niños con dones únicos, se encuentra en serio peligro",
+  },
+  {
+    título: "Batman",
+    género: "Fantasía",
+    anio: "2022",
+    sinapsis:
+      "En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie.",
+  },
+];
+
+function obtDetalles() {
+  document.write(
+    "<b>------------------------Cartelera------------------------</b><br/><br/>"
+  );
+  for (let i = 0; i < peliculas.length; i++) {
+    document.write(`<b>Título:</b> ${peliculas[i].título}<br/>`);
+    document.write(`<b>Género:</b> ${peliculas[i].género}<br/>`);
+    document.write(`<b>Año:</b> ${peliculas[i].anio}<br/>`);
+    document.write(`<b>Sinápsis:</b> ${peliculas[i].sinapsis}<br/><br/>`);
+  }
+}
+
 
 
   
