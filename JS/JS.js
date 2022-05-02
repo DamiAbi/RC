@@ -169,9 +169,9 @@ function obtDetalles() {
   }
 }
 
-let producto1 = new Producto(012, "Pan", 150);
-let producto2 = new Producto(020, "Harina", 90);
-let producto3 = new Producto(150, "Salame", 250);
+let producto1 = new Producto(036, "Pan", 150);
+let producto2 = new Producto(342, "Harina", 90);
+let producto3 = new Producto(133, "Salame", 250);
 
 let arregloProductos = [producto1, producto2, producto3];
   
