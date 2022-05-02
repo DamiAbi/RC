@@ -155,7 +155,26 @@ function obtDetalles() {
     document.write(`<b>Sinápsis:</b> ${peliculas[i].sinapsis}<br/><br/>`);
   }
 }
+ class Producto {
+  constructor(codigo, nombre, precio) {
+    this.codigo = codigo;
+    this.nombre = nombre;
+    this.precio = precio;
+  }
 
+  imprimeDatos() {
+    document.write(`Código: ${this.codigo}`);
+    document.write(`Nombre del Producto: ${this.nombre}`);
+    document.write(`Precio: ${this.precio}`);
+  }
+}
+
+let producto1 = new Producto(012, "Pan", 150);
+let producto2 = new Producto(020, "Harina", 90);
+let producto3 = new Producto(150, "Salame", 250);
+
+let arregloProductos = [producto1, producto2, producto3];
+  
 
 
   
